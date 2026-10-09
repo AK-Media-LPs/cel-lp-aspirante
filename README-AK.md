@@ -16,12 +16,12 @@ Import do repo · Framework Preset **Other** · Root Directory na raiz · sem Bu
 - `og-image.jpg` movido para `assets/`; `canonical`, `og:url` e `og:image` sem o prefixo `/aspirante`.
 - `favicon.ico` e `robots.txt` copiados para a raiz do repo.
 - `vercel.json` adaptado ao padrão AK (cache de assets + HTML sem cache).
+- Bônus "Diagnóstico dos 8 pilares" validado: removido o marcador [A VALIDAR] e o TODO.
 
 ## Pendências
 - [ ] URL real da Vercel/domínio: trocar `SEU-DOMINIO.com.br` (canonical, og:url, og:image) e fazer segundo commit
 - [ ] ID do GTM: trocar `GTM-XXXXXXX` (head e body); Pixel Meta e GA4 dentro do GTM
 - [ ] Confirmar link de checkout Hotmart, parcelamento (12x R$19,70) e métodos de pagamento
-- [ ] Validar o bônus "Diagnóstico dos 8 pilares" ([A VALIDAR]) ou remover
 - [ ] Razão social, CNPJ e política de privacidade no rodapé (removidos a pedido)
 - [ ] robots.txt hoje `Allow: /`; se for só tráfego pago, usar `Disallow: /` + `noindex` [DECIDIR]
 
