@@ -17,6 +17,7 @@ Import do repo · Framework Preset **Other** · Root Directory na raiz · sem Bu
 - `favicon.ico` e `robots.txt` copiados para a raiz do repo.
 - `vercel.json` adaptado ao padrão AK (cache de assets + HTML sem cache).
 - Bônus "Diagnóstico dos 8 pilares" validado: removido o marcador [A VALIDAR] e o TODO.
+- Ajustes mobile (<=767px) no fim do `style.css`: títulos e blocos de texto centralizados, logo centralizado, alvos de toque >=44px nos links de vídeo e rodapé, textos mínimos de 12px. CSS versionado como `style.css?v=2` (cache de 1 ano).
 
 ## Pendências
 - [ ] URL real da Vercel/domínio: trocar `SEU-DOMINIO.com.br` (canonical, og:url, og:image) e fazer segundo commit

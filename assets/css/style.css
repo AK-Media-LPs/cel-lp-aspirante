@@ -133,3 +133,19 @@ a{color:#003bff}a:hover{color:#0030d6}
 .js [data-r="bar"]{opacity:1;transform:scaleY(0);transform-origin:50% 100%}
 .js [data-r].in{opacity:1;transform:none}
 @media (prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;transition:none!important}.js [data-r]{opacity:1;transform:none}}
+
+/* Mobile (<=767px): títulos e blocos de texto centralizados, toques maiores, textos mínimos legíveis */
+@media (max-width:767px){
+.hero__copy,.split__copy,.card,.box,.risk,.metodo__copy,.pil-intro,.bonus,.recon,.dor__close,.fit h3,.cmp__t{text-align:center}
+.hero__copy,.split__copy,.box,.risk,.metodo__copy,.pil-intro,.bonus{align-items:center}
+.hero__logo{align-self:center}
+.hero h1,.split__copy .h2,.hero__sub,.split__copy p{margin-left:auto;margin-right:auto}
+.hero h1,.h2,.card h3,.box h3,.risk h3,.pil-intro p,.recon__a{text-wrap:balance}
+.chips{justify-content:center}
+.eyebrow{text-align:center}
+.split__copy .eyebrow,.hero .eyebrow{width:100%}
+.btn{margin-left:auto;margin-right:auto}
+.chart__axis{font-size:12px}
+.video>a{display:inline-flex;align-items:center;min-height:44px;padding:0 8px}
+.foot a{display:inline-block;padding:10px 4px}
+}
