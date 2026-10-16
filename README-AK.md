@@ -19,6 +19,8 @@ Import do repo · Framework Preset **Other** · Root Directory na raiz · sem Bu
 - Bônus "Diagnóstico dos 8 pilares" validado: removido o marcador [A VALIDAR] e o TODO.
 - Ajustes mobile (<=767px) no fim do `style.css`: títulos e blocos de texto centralizados, logo centralizado, alvos de toque >=44px nos links de vídeo e rodapé, textos mínimos de 12px. CSS versionado como `style.css?v=2` (cache de 1 ano).
 - Meta Pixel (ID 426921048860579, PageView) inserido no `<head>` estático, direto no HTML (não via GTM).
+- Removido o link "Não carregou? Assistir no YouTube" abaixo dos vídeos de depoimento.
+- Removido o bônus "Grupo de donos no Telegram" (card, selo de preço e FAQ ajustados); o grid de bônus reflui para 2 cards.
 
 ## Pendências
 - [ ] URL real da Vercel/domínio: trocar `SEU-DOMINIO.com.br` (canonical, og:url, og:image) e fazer segundo commit
